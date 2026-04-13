@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@theme {
+  --color-industrial-950: #0B0F1A; /* Un negro más profundo y técnico */
+  --color-industrial-900: #161C2C; /* Gris azulado de grado industrial */
+  --color-industrial-800: #1F2937;
+  --color-trust-500: #2563EB; /* Azul más serio y profundo */
+  --color-trust-600: #1D4ED8;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-industrial-950 text-slate-100 antialiased;
+  margin: 0;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  /* Patrón de rejilla técnica sutil */
+  background-image: 
+    linear-gradient(to right, rgba(255,255,255,0.02) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255,255,255,0.02) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+.mono-tag {
+  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.industrial-border {
+  @apply border border-slate-800/60 shadow-[inset_0_1px_1px_rgba(255,255,255,0.05)];
+}
