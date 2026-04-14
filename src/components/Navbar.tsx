@@ -1,16 +1,16 @@
-import { Shield } from 'lucide-react';
+import logo from '../assets/aji-solutions-logo.svg';
 
 const Navbar = () => {
   return (
     <nav className="fixed w-full z-50 bg-industrial-950/90 backdrop-blur-xl border-b border-slate-800/50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-20 items-center">
-          <div className="flex items-center gap-3">
-            <div className="w-10 h-10 bg-trust-500 flex items-center justify-center shadow-lg shadow-trust-500/20">
-              <Shield className="w-6 h-6 text-white" />
+          <div className="flex items-center gap-4 group">
+            <div className="w-12 h-12 flex items-center justify-center transition-transform group-hover:scale-105">
+              <img src={logo} alt="AJI Solutions Logo" className="w-full h-full object-contain" />
             </div>
             <div className="flex flex-col">
-              <span className="text-lg font-black tracking-tighter leading-none">
+              <span className="text-xl font-black tracking-tighter leading-none">
                 AJI <span className="text-trust-500">SOLUTIONS</span>
               </span>
               <span className="text-[10px] font-mono text-slate-500 tracking-[0.2em] uppercase leading-tight mt-1">
