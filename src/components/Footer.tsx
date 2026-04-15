@@ -1,3 +1,5 @@
+import { LogoCircle } from './LogoCircle';
+
 const Footer = () => {
   return (
     <footer className="bg-industrial-950 border-t border-slate-800 pt-16 pb-8">
@@ -5,13 +7,9 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-12 mb-16">
           <div className="col-span-2">
             <div className="flex items-center gap-6 mb-8">
-              {/* Contenedor optimizado con acceso directo al asset público */}
+              {/* Logo incrustado directamente como componente para máxima fiabilidad */}
               <div className="w-24 h-24 flex items-center justify-center bg-industrial-900 border border-slate-800 p-2 shadow-2xl">
-                <img 
-                  src="/logo-circle.svg" 
-                  alt="AJI Solutions Sello" 
-                  className="w-full h-full object-contain"
-                />
+                <LogoCircle className="w-full h-full" />
               </div>
               <div className="flex flex-col">
                 <span className="text-2xl font-black tracking-tighter leading-none">
