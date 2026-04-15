@@ -1,4 +1,4 @@
-import logo from '../assets/aji-solutions-logo.svg';
+import logoCircle from '../assets/aji-logo-circle-animated.svg';
 
 const Footer = () => {
   return (
@@ -7,8 +7,8 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-12 mb-16">
           <div className="col-span-2">
             <div className="flex items-center gap-4 mb-8">
-              <div className="w-16 h-16 flex items-center justify-center">
-                <img src={logo} alt="AJI Solutions Logo" className="w-full h-full object-contain" />
+              <div className="w-20 h-20 flex items-center justify-center">
+                <img src={logoCircle} alt="AJI Solutions Sello" className="w-full h-full object-contain" />
               </div>
               <div className="flex flex-col">
                 <span className="text-xl font-black tracking-tighter leading-none">
