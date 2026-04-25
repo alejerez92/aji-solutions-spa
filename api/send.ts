@@ -52,7 +52,7 @@ export default async function handler(req: Request) {
           
           <p>Estimado/a <strong>${name}</strong>,</p>
           <p>Hemos recibido correctamente su solicitud de información respecto a <strong>${service}</strong> para la empresa <strong>${company}</strong>.</p>
-          <p>Un arquitecto de soluciones de nuestro equipo técnico revisará los detalles de su requerimiento y se pondrá en contacto con usted en un plazo máximo de 24 horas hábiles.</p>
+          <p>Un arquitecto de soluciones de nuestro equipo técnico revisará los detalles de su requerimiento y se pondrá en contacto con usted a la brevedad.</p>
           
           <div style="margin: 40px 0; padding: 20px; border: 1px solid #e2e8f0; border-radius: 4px; background-color: #f8fafc; text-align: center;">
             <p style="margin: 0; font-size: 14px; color: #64748b;">Si su requerimiento es de carácter urgente, puede contactarnos directamente a:</p>
