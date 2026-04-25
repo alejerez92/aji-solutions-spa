@@ -1,4 +1,4 @@
-import logo from '../assets/aji-logo-animated.svg';
+import logo from '../assets/aji-solutions-logo.svg';
 
 const Navbar = () => {
   return (
@@ -10,7 +10,7 @@ const Navbar = () => {
               <img 
                 src={logo} 
                 alt="AJI Solutions" 
-                className="h-16 w-auto object-contain" /* Altura optimizada para el Navbar */
+                className="h-12 w-auto object-contain" /* Ajustado para el logo estándar */
               />
             </div>
           </div>

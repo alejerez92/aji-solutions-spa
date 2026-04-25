@@ -72,7 +72,7 @@ const Contact = () => {
               <div className="h-full flex flex-col items-center justify-center text-center space-y-4 py-20">
                 <CheckCircle2 className="w-16 h-16 text-green-500 animate-bounce" />
                 <h3 className="text-2xl font-bold">Solicitud Enviada</h3>
-                <p className="text-slate-400">Gracias, Alejandro. Un arquitecto revisará tu caso en las próximas horas.</p>
+                <p className="text-slate-400">Gracias por tu interés. Un arquitecto de soluciones revisará tu requerimiento en las próximas horas.</p>
                 <button 
                   onClick={() => setStatus('idle')}
                   className="text-trust-500 font-bold uppercase tracking-widest text-xs mt-8"
